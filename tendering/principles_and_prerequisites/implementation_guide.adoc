@@ -1,0 +1,12 @@
+
+
+== Implementation guidelines
+
+Detailed implementation guidelines for each transaction, can be found here:
+
+
+* https://test-vefa.difi.no/esens/gefeg/submittender/1.0/[Submit tender]
+* https://test-vefa.difi.no/esens/gefeg/tenderreceipt/1.0/[Tender receipt]
+* https://test-vefa.difi.no/esens/gefeg/preawardcatalogue/1.0/[Pre-award catalogue]
+
+* {ESPD_github}

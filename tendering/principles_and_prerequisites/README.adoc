@@ -1,0 +1,10 @@
+
+= Principles and prerequisites
+
+This chapter describes the principles and assumptions that underlie the use of this EHF Tendering. It is based on the following {CENBII} profiles, eSENS piloting and {ESPD} documentation:
+
+
+* Profile 54 Submit Tender
+* Profile 35 Advanced Tender with PreAward Catalogue
+* eSENS BIS 54
+* {ESPD_doc}

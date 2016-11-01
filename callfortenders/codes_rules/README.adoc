@@ -1,0 +1,15 @@
+
+
+= Code lists and business rules
+
+This guide is based on work done by {CENBII} and the European Commision for ESPD, and business rules and code lists used are inherited from the follwing:
+
+* CWA 17027-212 UBL SIG - Trdm083 Call for Tenders
+* CWA 17027-112 Profile 47 - Call for Tenders
+* {ESPD_model}
+
+IMPORTANT: The profile document and syntax implementation guides from {CENBII}, as well as the {ESPD_model} and {ESPD_doc} must be considered when implementing {EHF} tendering.
+
+In addition to the rules and code lists from the {CENBII} and {ESPD} work, some additional business rules has been added, to ensure correct use according to {PEPPOL} Policies. The testing/piloting has also revealed that there where a few other rules/code lists needed as validation artefacts to ensure an instance document is conformant with the {CENBII} specifications.
+
+The following chapters gives an overview of any code lists and business rules added to this BIS. For rules and code lists from {CENBII}, we refer to the published documents above.

@@ -1,0 +1,44 @@
+= image:Difi_logo.jpg[] EHF  Tendering
+:author: Direktoratet for forvaltning og IKT, DIFI
+:revnumber: 1.0
+:revdate: 01-11-2016
+:icons: font
+:toc: left
+:toclevels: 2
+:sectnums:
+:sectanchors:
+:source-highlighter: coderay
+:sourcedir: .
+:gendoc: ../../General
+:imagesdir: ../../../assets/images
+:title-logo-image: {images}/Difi_logo.jpg
+
+
+:leveloffset: +1
+
+include::{gendoc}/Attributes.adoc[]
+include::{sourcedir}\document_history\revision_history.adoc[]
+include::{sourcedir}\document_history\contributors.adoc[]
+include::{sourcedir}\introduction\README.adoc[]
+include::{sourcedir}\introduction\audience.adoc[]
+include::{sourcedir}\principles_and_prerequisites\README.adoc[]
+include::{sourcedir}\principles_and_prerequisites\implementation_guide.adoc[]
+include::{gendoc}/scope.adoc[]
+include::{sourcedir}\principles_and_prerequisites\interoperability.adoc[]
+include::{sourcedir}\principles_and_prerequisites\non-functional_requirements.adoc[]
+include::{sourcedir}\process\business_process.adoc[]
+include::{sourcedir}\codes_rules\README.adoc[]
+include::{sourcedir}\codes_rules\code_lists.adoc[]
+include::{sourcedir}\codes_rules\business_rules.adoc[]
+include::{gendoc}\espd.adoc[]
+include::{sourcedir}\descriptions\README.adoc[]
+include::{sourcedir}\descriptions\Tender.adoc[]
+include::{gendoc}/Peppol_policy.adoc[]
+include::{gendoc}/party_identifiers.adoc[]
+include::{gendoc}/version_id.adoc[]
+include::{sourcedir}\profiles\profiles.adoc[]
+include::{sourcedir}\peppol_identifiers\profile_id.adoc[]
+include::{sourcedir}\peppol_identifiers\customization_id.adoc[]
+include::{sourcedir}\peppol_identifiers\combination.adoc[]
+include::{sourcedir}\annex\README.adoc[]
+:leveloffset: -1

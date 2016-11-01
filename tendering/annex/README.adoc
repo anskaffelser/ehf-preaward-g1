@@ -1,0 +1,24 @@
+
+[appendix]
+= Example files
+
+== Submit tender
+[source,xml]
+.Submit tender, trdm090:
+----
+include::../{gendoc}/examples/Trdm090.xml[]
+----
+
+== Tender receipt notification
+[source,xml]
+.Tender Receipt notification, trdm045:
+----
+include::../{gendoc}/examples/Trdm045.xml[]
+----
+
+== Pre-award catalogue
+[source,xml]
+.Pre-award catalogue, trdm068:
+----
+include::../{gendoc}/examples/Trdm068.xml[]
+----

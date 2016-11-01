@@ -1,0 +1,12 @@
+
+== Non-functional requirements
+
+For the {EHF} guide all {EHF} non-functional requirements are applicable as mentioned in
+
+* CWA 17027-119 Profile 54 - Tendering and
+
+* CWA 17027-105 Profile 35 Advanced Tendering with PreAward Catalogue,
+
+as well as any requirements found in {ESPD_model}.
+
+When adopting the {EHF} guide implementers must comply to these requirements.

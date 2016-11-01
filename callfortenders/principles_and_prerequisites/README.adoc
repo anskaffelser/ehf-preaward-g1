@@ -1,0 +1,7 @@
+
+= Principles and prerequisites
+
+his chapter describes the principles and assumptions that underlie the use of this EHF Call for Tenders. It is based on the following {CENBII} profiles, eSENS piloting and {ESPD} documenta:
+
+* Profile 47 Call for Tenders
+* {ESPD_model}

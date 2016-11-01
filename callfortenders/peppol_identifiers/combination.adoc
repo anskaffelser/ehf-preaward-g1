@@ -1,0 +1,39 @@
+
+== Overview of valid combinations of CustomizationID and ProfileID
+
+The table below shows an overview of the possible combinations of CustomizationID and ProfileID according to this BIS.
+
+.BIS47
+[cols=".^2,.^1,.^4,.^3", options="header"]
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Call for tenders
+| Trdm083
+|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:extended:urn:www.peppol.eu:bis:peppol47a:ver1.0
+.^|urn:www.cenbii.eu:profile:bii47:ver3.0
+
+|===
+
+.BIS47x
+[cols=".^2,.^1,.^4,.^3", options="header"]
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Call for tenders
+| Trdm083
+|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:extended:urn:www.peppol.eu:bis:peppol47a:ver1.0
+.2+|urn:www.cenbii.eu:profile:bii47x:ver3.0
+
+| ESPD
+| Trdm070
+| urn:www.cenbii.eu:transaction:biitrns070:ver3.0
+
+
+|===

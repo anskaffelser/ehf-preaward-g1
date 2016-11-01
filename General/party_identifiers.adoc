@@ -1,0 +1,17 @@
+
+== Party Identifiers
+
+
+
+The `@schemeID` attribute must be populated in all instances of the `ID` element when used within a `PartyIdentification`-container and in all instances of the `EndpointID` element when used within a `Party`-container.
+
+.Examples of usage in `PartyIdentification` and `EndpointID`:
+[source,xml]
+----
+include::examples/Trdm090.xml[tags=endpoint]
+----
+
+[source,xml]
+----
+include::examples/Trdm090.xml[tags=partyID]
+----

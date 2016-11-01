@@ -1,0 +1,36 @@
+
+
+== Tender (trdm090)
+
+=== Provided documents
+
+The trdm090 mainly contains the metadata of the tender, and a list of the provided tender documents. Information about the provided documents are given in the element {T90_DocRef}.
+
+Below are examples of both pre-award catalogue and ESPD response as provided documents.
+
+==== Pre-award catalogue
+
+In <<profiles,profile 54x>>, it is expected that there is a structured (xml) pre-award catalogue provided as part of the tender documents.
+
+[source,xml]
+.Example provided pre-award catalogue
+----
+include::../{gendoc}/examples/Trdm090.xml[tags=ProvidedCatalogue]
+----
+<1>  Code value used for Pre-award Catalogue
+<2>  DocumentDescription should be "PreAward Catalogue"
+<3>  Name of the structured catalogue file
+
+[[espd_descr]]
+==== ESPD response
+
+ESPD response can be given as either structured or unstructured information, based on what is asked for in the call for tenders. ESPD response can be used in profile 54y and 54xy. See <<profiles, profile chapter>> for more details.
+
+[source,xml]
+.Example provided ESPD response (structured)
+----
+include::../{gendoc}/examples/Trdm090.xml[tags=Provided_ESPD]
+----
+<1>  Codevalue used for ESPD response
+<2>  DocumentDescription should be "ESPD Response"
+<3>  Name of the structured ESPD file

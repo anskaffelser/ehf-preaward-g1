@@ -1,0 +1,31 @@
+
+
+== Profile ID
+
+
+The profile ID identifies the process that the business document is part of. This EHF Tendering guide uses the identification system according to {CENBII}.
+
+IMPORTANT: As this document is covering different profiles, please make sure that you use the correct profile according to the processes (and transactions) covered in the profile.
+
+This document document is covering the following profiles, which is identified with the stated profile ID in the element `cbc:ProfileID`:
+
+Profile BII54::
+`urn:www.cenbii.eu:profile:bii54:ver3.0`
+
+Profile BII54x::
+`urn:www.cenbii.eu:profile:bii54x:ver3.0`
+
+Profile BII54y::
+`urn:www.cenbii.eu:profile:bii54y:ver3.0`
+
+Profile BII54xy::
+`urn:www.cenbii.eu:profile:bii54xy:ver3.0`
+
+
+.Example:
+[source, xml]
+----
+include::../{gendoc}/examples/Trdm090.xml[tags=profile]
+----
+
+IMPORTANT: Please note that process identifiers in the document instance MUST correspond to the SMP process identifier.

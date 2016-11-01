@@ -1,0 +1,10 @@
+
+[appendix]
+= Example files
+
+== Call for Tender
+[source,xml]
+.Call for Tender, trdm083:
+----
+include::../{gendoc}/examples/Trdm083.xml[]
+----

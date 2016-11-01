@@ -1,0 +1,52 @@
+
+== Customization ID
+
+
+The Customization ID identifies the specification of content and rules that apply to the transaction. This guide has required some minor additions and changes to the {CENBII} transaction. Following the {CENBII} methodology any extension must be communicated by adding an extension ID onto the Customization ID. The full syntax is:
+----
+<transactionId>:(restrictive|extended|partly):<extensionId>[(restrictive|extended|partly):<extensionId>].
+----
+
+Where:
+
+[cols="2"]
+.CustomizationID
+|===
+|*Transaction ID:*
+|`urn:www.cenbii.eu:transaction:biitrdm068:ver3.0`
+
+|*Extension ID:*
+|`urn:www.difi.no:ehf:tendering:ver1.0`
+|===
+
+
+Which customization identification that should be used, is based on which transaction is sent, and the extension identification for this {EHF} guide (Tendering):
+
+.For Submit Tender (trdm090):
+----
+urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0
+----
+
+.For Pre-award catalogue:
+----
+urn:www.cenbii.eu:transaction:biitrdm068:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0
+----
+
+.For Tender receipt notification:
+----
+urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0
+----
+
+.For the ESPD response:
+----
+urn:www.cenbii.eu:transaction:biitrns092:ver3.0
+----
+
+
+Example of usage:
+[source, xml]
+----
+include::../{gendoc}/examples/Trdm090.xml[tags=custID]
+----
+
+IMPORTANT: Please note that CustomizationID element in the document instance MUST correspond to the Customization ID of the SMP Document Identifier.

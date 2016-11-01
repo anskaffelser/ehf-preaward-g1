@@ -1,0 +1,99 @@
+
+== Overview of valid combinations of CustomizationID and ProfileID
+
+The table below shows an overview of the possible combinations of CustomizationID and ProfilID within this EHF guide.
+
+[cols="4", options="header"]
+.Profile 54
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Submit Tender
+| Trdm090
+|urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+.2+.^|urn:www.cenbii.eu:profile:bii54:ver3.0
+
+
+| Tender Receipt
+| Trdm045
+|urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+|===
+
+.Profile 54x
+[cols="4", options="header"]
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Submit Tender
+| Trdm090
+|urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+.3+.^|urn:www.cenbii.eu:profile:bii54:ver3.0
+
+| Tender Receipt
+| Trdm045
+|urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+
+
+| PreAward Catalogue
+| Trdm068
+|urn:www.cenbii.eu:transaction:biitrdm068:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+
+|===
+
+.Profile 54y
+[cols="4", options="header"]
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Submit Tender
+| Trdm090
+|urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+.3+.^|urn:www.cenbii.eu:profile:bii54:ver3.0
+
+| Tender Receipt
+| Trdm045
+|urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+
+| ESPD
+|Trdm092
+| urn:www.cenbii.eu:transaction:biitrns092:ver3.0
+
+
+|===
+
+.Profile 54xy
+[cols="4", options="header"]
+|===
+|Name of transaction
+|Transaction id
+|CustomizationID
+|ProfileID
+
+| Submit Tender
+| Trdm090
+|urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+.4+.^|urn:www.cenbii.eu:profile:bii54:ver3.0
+
+| Tender Receipt
+| Trdm045
+|urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+
+| PreAward Catalogue
+| Trdm068
+|urn:www.cenbii.eu:transaction:biitrdm068:ver3.0:extended:urn:www.peppol.eu:bis:peppol54a:ver1.0
+
+| ESPD
+| Trdm092
+| urn:www.cenbii.eu:transaction:biitrns092:ver3.0
+
+
+|===

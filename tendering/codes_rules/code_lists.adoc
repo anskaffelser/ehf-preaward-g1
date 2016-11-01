@@ -1,0 +1,54 @@
+
+== Code lists
+
+The following code lists for coded elements and identifier schemes are used in this {EHF} guide.
+
+IMPORTANT: Additional code lists are listed in the {CENBII} documents, and must also be used to ensure valid instance documents!
+
+
+=== Code lists for coded elements
+
+[cols="5", options="header"]
+.Code list for coded elements
+|===
+|Business Term
+|Source
+|Subset
+|Xpath
+|listID
+| Tender language
+| {ISO639}[ISO639-1]
+|
+| //cac:DocumentReference/cbc:LocaleCode
+| ISO639-1
+|===
+
+=== Code lists for identifier schemes
+
+[cols="3", options="header"]
+.Code list for identifier schemes
+|===
+|Business Term
+|Allowed Scheme
+|Applicable Xpath
+
+
+|Economic operator electronic address identifier
+|Must be according to {PEPPOL_identifier}[PEPPOL Policy for use of identifiers], policy 8
+|//cac:TendererParty/cbc:EndpointID/@schemeID
+
+
+|Contracting body electronic address identifier
+|Must be according to {PEPPOL_identifier}[PEPPOL Policy for use of identifiers], policy 8
+|//cac:ContractingParty/cac:Party/cbc:EndpointID/@schemeID
+
+|Economic operator identifier
+|Must be according to {PEPPOL_identifier}[PEPPOL Policy for use of identifiers], policy 8
+|//cac:TendererParty/cac:PartyIdentification/cbc:ID/@schemeID
+
+
+|Contracting body identifier
+|Must be according to {PEPPOL_identifier}[PEPPOL Policy for use of identifiers], policy 8
+|//cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeID
+
+|===

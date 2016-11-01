@@ -1,0 +1,8 @@
+
+
+== Implementation guidelines
+
+Detailed implementation guidelines for each transaction, can be found here:
+
+* https://test-vefa.difi.no/esens/gefeg/callfortenders/1.0/[Call for Tenders]
+* {ESPD_github}

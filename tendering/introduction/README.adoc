@@ -1,0 +1,24 @@
+
+= Introduction to EHF Tendering
+
+
+This document provides a set of specifications for implementing a business process. The document is concerned with clarifying requirements for ensuring interoperability in eProcurement and provides guidelines for supporting these requirements and how to implement. The following are the basis for this work:
+
+****
+[IMPORTANT]
+====
+These CEN WS/BII3 <<profiles, profiles>>, and the corresponding UBL binding documents, as well as  the {ESPD_doc} are the basis for this work:
+
+* CWA 17027-119 Profile 54 Tendering
+* CWA 17027-105 Profile 35 Advanced Tendering with Pre-award Catalogue
+* CWA 17027-218 UBL binding document - Trdm090 Submit Tender
+* CWA 17027-205 UBL binding document - Trdm045 Tender Reception Notification
+* CWA 17028-213 UBL binding document - Trdm068 Pre-award catalogue
+* European commission documentation for ESPD
+
+*And it is important that implementers are well known with the content of these documents to ensure implementations that are valid and of high quality.*
+====
+****
+
+
+*The purpose* of this document is to describe a common format for exchanging messages in a procurement procedure, to facilitate an efficient implementation and increased use of electronic tendering based on this format.

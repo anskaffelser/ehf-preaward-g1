@@ -1,0 +1,17 @@
+
+[[profiles]]
+= Profiles supported by this BIS
+
+This BIS document covers 2 profiles:
+
+Profile BII47::
+This profile consists of one transaction:
+. Call for tenders (trdm083)
+image::BPMN_47.png[BPMN, align="center"]
+
+Profile BII47::
+This profile consists of one transaction:
+. Call for tenders (trdm083)
+. ESPD request
+
+image::BPMN_47x.png[BPMN, align="center"]

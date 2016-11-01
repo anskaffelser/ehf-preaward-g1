@@ -1,0 +1,14 @@
+
+
+= Contributors
+
+[cols="3", options="header"]
+.contributors
+|===
+| Country
+| Name
+| Organization
+
+| NO |Siw Midtgård Meckelborg | DIFI/Edisys
+| NO |Jan Mærøe | DIFI
+|===

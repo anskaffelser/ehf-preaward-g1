@@ -1,0 +1,36 @@
+
+[[profiles]]
+= Profiles supported by this guide
+
+This EHF document covers 4 profiles:
+
+Profile BII54::
+This profile consists of two transactions:
+. Submit tender (trdm090)
+. Tender receipt (trdm045)
+
+The business process for this profile is shown below:
+image::EHF-Submit_Tender.png[BPMN, align="center"]
+
+Profile BII54x::
+This profile consists of three transactions:
+. Submit tender (trdm090)
+. Pre-award catalogue (trdm068)
+. Tender receipt (trdm045)
+
+Profile BII54y::
+This profile consists of three transactions:
+. Submit tender (trdm090)
+. ESPD response
+. Tender receipt (trdm045)
+
+image::EHF-Submit_Tender_ESPD.png[BPMN, align="center"]
+
+Profile BII54xy::
+This profile consists of 4 transactions:
+. Submit tender (trdm090)
+. Pre-award catalogue (trdm068)
+. ESPD response
+. Tender receipt (trdm045)
+
+image::EHF-Submit_Tender_ESPD_Cat.png[BPMN, align="center"]

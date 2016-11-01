@@ -1,0 +1,18 @@
+= Revision history
+
+
+[cols="5", options="header"]
+.Revision history
+|===
+| Version
+| Date
+| Author
+| Organization
+| Description
+
+| {revnumber}
+| {revdate}
+| Siw Midtgård Meckelborg
+| {author}
+| First version for review
+|===

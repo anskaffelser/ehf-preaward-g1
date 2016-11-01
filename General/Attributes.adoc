@@ -1,0 +1,60 @@
+
+// EHF
+:EHF: https://vefa.difi.no/ehf/[EHF]
+
+:EHF:
+// eDelivery - PEPPOL
+:PEPPOL: http://www.peppol.eu[openPEPPOL]
+:PEPPOL_identifier: https://joinup.ec.europa.eu/svn/peppol/TransportInfrastructure/PEPPOL_Policy%20for%20use%20of%20identifiers-300.pdf
+:eDelivery: https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery[CEF eDelivery]
+
+// Security
+:eIDAS: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG[eIDAS]
+:REM: http://www.etsi.org/deliver/etsi_ts/102600_102699/10264002/02.02.01_60/ts_10264002v020201p.pdf[REM]
+:XAdES: http://www.etsi.org/deliver/etsi_en%5C319100_319199%5C31913201%5C01.01.00_30%5Cen_31913201v010100v.pdf[XAdES]
+:SBDH: http://www.gs1.org/docs/gs1_un-cefact_%20xml_%20profiles/CEFACT_SBDH_TS_version1.3.pdf
+:ASIC: https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=42455
+:CAdES: https://en.wikipedia.org/wiki/CAdES_(computing)
+
+// CEN BII
+:CENBII: http://www.cenbii.eu/[CEN BII]
+:CENBII_VA: http://www.cenbii.eu/deliverables/cen-wsbii-3/validation-tools/
+
+
+//ESPD
+
+:ESPD: https://en.wikipedia.org/wiki/European_Single_Procurement_Document[ESPD]
+:ESPD_Service: https://ec.europa.eu/growth/tools-databases/espd/[ESPD Service]
+:ESPD_doc: http://espd.github.io/ESPD-Service/[ESPD Documentation]
+:ESPD_model: https://espd.github.io/ESPD-EDM/[ESPD Exchange Data Model]
+:ESPD_github: https://github.com/espd[ESPD Github Account]
+
+// Legal
+
+:EU_Dir_24: http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0024&from=En
+:EU_Dir_25: http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0025&from=EN
+:Reg_910: http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0910&from=EN
+
+// UBL
+
+:UBL: http://docs.oasis-open.org/ubl/UBL-2.1.html
+:Tender_xsd:  http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Tender-2.1.xsd
+:Tender_Rec_xsd: http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-TenderReceipt-2.1.xsd
+:CfT_xsd: http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-CallForTenders-2.1.xsd
+:Catalogue_xsd: http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Catalogue-2.1.xsd
+
+// eSens
+
+:eSENS: http://www.esens.eu/[e-SENS]
+:Trdm090_sch: https://github.com/difi/vefa-preaward/tree/master/rules/esens-trdm090-1.0[ESENS-UBL-T90.sch]
+:Trdm045_sch: https://github.com/difi/vefa-preaward/tree/master/rules/esens-trdm045-1.0[ESENS-UBL-T45.sch]
+:Profile54x: https://test-vefa.difi.no/esens/gefeg/submittender/1.0/039.htm[ProfileID54x]
+:T90_DocRef: https://test-vefa.difi.no/esens/gefeg/submittender/1.0/0314.htm[Document_Reference]
+:T90_DocTypeCode: https://test-vefa.difi.no/esens/gefeg/submittender/1.0/0317.htm
+
+// Other
+
+:BPMN: https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation[BPMN]
+:EIF: http://ec.europa.eu/isa/library/index_en.htm
+:ISO639: http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=22109
+:IANA: http://www.iana.org/assignments/media-types/media-types.xhtml[IANA]

@@ -1,0 +1,16 @@
+== Business rules
+
+The below listed business rules are additional rules to ensure valid instance documents, and to ensure that identifiers needed in the {PEPPOl} Transport infrastructure are present.
+
+IMPORTANT: Additional business rules are listed in the {CENBII} and {ESPD_doc}, and these cannot be violated if the instance document is to be valid!
+
+[cols="5", options="header"]
+.Rules for Trdm083, call for tender
+|====
+|RuleID
+|Rule
+|Flag
+|Test
+| Message
+include::../{gendoc}/Trdm083_rules.adoc[]
+|====
