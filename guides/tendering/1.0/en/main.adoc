@@ -36,8 +36,6 @@ include::{sourcedir}\principles_and_prerequisites\interoperability.adoc[]
 
 include::{sourcedir}\principles_and_prerequisites\non-functional_requirements.adoc[]
 
-include::{sourcedir}\process\business_process.adoc[]
-
 include::{sourcedir}\codes_rules\README.adoc[]
 
 include::{sourcedir}\codes_rules\code_lists.adoc[]
