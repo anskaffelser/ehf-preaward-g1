@@ -9,7 +9,7 @@
 :sectanchors:
 :source-highlighter: coderay
 :sourcedir: .
-:gendoc: ../../General
+:gendoc: ../../../shared
 :imagesdir: ../../../assets/images
 :title-logo-image: {images}/Difi_logo.jpg
 
