@@ -1,5 +1,5 @@
 
-= Introduction to eSENS eTendering and BIS
+= Introduction to EHF eTendering
 
 
 This document provides a set of specifications for implementing a business process. The document is concerned with clarifying requirements for ensuring interoperability in eProcurement and provides guidelines for supporting these requirements and how to implement. The following are the basis for this work:

@@ -1,5 +1,3 @@
-
-
 = Contributors
 
 [cols="1,3,3", options="header"]

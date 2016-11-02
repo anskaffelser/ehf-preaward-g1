@@ -1,6 +1,6 @@
 
 [[profiles]]
-= Profiles supported by this BIS
+= Profiles supported by this guide
 
 This BIS document covers 2 profiles:
 
