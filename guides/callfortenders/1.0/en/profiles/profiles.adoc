@@ -8,11 +8,12 @@ Profile BII47::
 This profile consists of one transaction:
 . Call for tenders (trdm083)
 
-image::EHF-BIS 47 Call for Tenders.png[BPMN, align="center"]
+image::EHF-BIS47.png[BPMN, align="center"]
 
-Profile BII47::
+
+Profile BII47x::
 This profile consists of one transaction:
 . Call for tenders (trdm083)
 . ESPD request
 
-image::EHF-BIS 47 Call for Tenders-ESPD.png[BPMN, align="center"]
+image::EHF-BIS47x.png[BPMN, align="center"]
