@@ -16,4 +16,4 @@ This profile consists of one transaction:
 . Call for tenders (trdm083)
 . ESPD request
 
-image::EHF-BIS47x.png[BPMN, align="center"]
+image::EHF-BIS47_x.png[BPMN, align="center"]
