@@ -10,7 +10,8 @@ This profile consists of two transactions:
 . Tender receipt (trdm045)
 
 The business process for this profile is shown below:
-image::EHF-Submit_Tender.png[BPMN, align="center"]
+
+image::EHF-Submit_Tender.jpg[BPMN, align="center"]
 
 Profile BII54x::
 This profile consists of three transactions:
@@ -24,7 +25,7 @@ This profile consists of three transactions:
 . ESPD response
 . Tender receipt (trdm045)
 
-image::EHF-Submit_Tender_ESPD.png[BPMN, align="center"]
+image::EHF-Submit_Tender_ESPD.jpg[BPMN, align="center"]
 
 Profile BII54xy::
 This profile consists of 4 transactions:
@@ -33,4 +34,4 @@ This profile consists of 4 transactions:
 . ESPD response
 . Tender receipt (trdm045)
 
-image::EHF-Submit_Tender_ESPD_Cat.png[BPMN, align="center"]
+image::EHF-Submit_Tender_ESPD_Cat.jpg[BPMN, align="center"]

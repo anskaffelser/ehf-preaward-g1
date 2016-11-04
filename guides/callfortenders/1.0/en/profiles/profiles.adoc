@@ -7,6 +7,7 @@ This BIS document covers 2 profiles:
 Profile BII47::
 This profile consists of one transaction:
 . Call for tenders (trdm083)
+
 image::BPMN_47.png[BPMN, align="center"]
 
 Profile BII47::
