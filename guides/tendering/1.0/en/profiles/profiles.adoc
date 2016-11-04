@@ -9,7 +9,7 @@ This profile consists of two transactions:
 . Submit tender (trdm090)
 . Tender receipt (trdm045)
 
-The business process for this profile is shown below:
+image::EHF-Submit_Tender.png[BPMN, align="center"]
 
 Profile BII54x::
 This profile consists of three transactions:
@@ -17,7 +17,7 @@ This profile consists of three transactions:
 . Pre-award catalogue (trdm068)
 . Tender receipt (trdm045)
 
-image::EHF-Submit_Tender.png[BPMN, align="center"]
+image::BPMN_54x.png[BPMN, align="center"]
 
 Profile BII54y::
 This profile consists of three transactions:
