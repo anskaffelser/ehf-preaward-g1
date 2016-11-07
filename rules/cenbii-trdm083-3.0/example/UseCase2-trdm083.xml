@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--
+    
+    UseCase2-trdm083.xml
+    Title: Call for tenders light, profile 47 and trdm083
+    Description: This use case is a sample of a call for tenders light corresponding to UseCase2 using the UBL 2.1 Syntax
+    Date: 24/11/2015
+    
+    Editor: CEN BII3 Workshop
+    
+-->
+<ubl:CallForTenders xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+    xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"
+    xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:CallForTenders-2">
+    <cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrdm083:ver3.0</cbc:CustomizationID>
+    <cbc:ProfileID>urn:www.cenbii.eu:profile:bii47:ver3.0</cbc:ProfileID>
+    <cbc:ID schemeURI="urn:uuid">bddd9596-7bfc-430e-b8c1-12fb32100dba</cbc:ID>
+    <cbc:ContractFolderID>128</cbc:ContractFolderID>
+    <cbc:IssueDate>2015-10-09+02:00</cbc:IssueDate>
+    <cbc:IssueTime>14:13:45.674+02:00</cbc:IssueTime>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID>klein.pdf</cbc:ID>
+        <cbc:IssueDate>2015-09-20+02:00</cbc:IssueDate>
+        <cbc:DocumentTypeCode listID="urn:eu:esens:cenbii:documentType">PROVIDED</cbc:DocumentTypeCode>
+        <cbc:LocaleCode listID="urn:un:unece:uncefact:identifierlist:standard:ISO:ISOAlpha2LanguageCode">NL</cbc:LocaleCode>
+        <cbc:DocumentStatusCode listID="urn:eu:esens:cenbii:documentStatusType">NO RETURN</cbc:DocumentStatusCode>
+        <cac:Attachment>
+            <cac:ExternalReference>
+                <cbc:URI>https://www.tenderweb.nl/docs/923400033344klein.pdf</cbc:URI>
+                <cbc:MimeCode>application/pdf</cbc:MimeCode>
+            </cac:ExternalReference>
+        </cac:Attachment>
+    </cac:AdditionalDocumentReference>
+    <cac:ContractingParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="iso6523-actorid-upis">9956:DE:EPROC:BMIEVG:BeschA</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Ministerie van Buitenlandse Zaken</cbc:Name>
+            </cac:PartyName>
+            <cac:PartyLegalEntity>
+                <cac:RegistrationAddress>
+                    <cac:Country>
+                        <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NL</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:VariantConstraintIndicator>false</cbc:VariantConstraintIndicator>
+        <cac:CallForTendersDocumentReference>
+            <cbc:ID schemeURI="urn:uuid">bddd9596-7bfc-430e-b8c1-12fb32100dba</cbc:ID>
+        </cac:CallForTendersDocumentReference>
+        <cac:DocumentProviderParty>
+            <cbc:EndpointID>http://www.tenderned.nl</cbc:EndpointID>
+        </cac:DocumentProviderParty>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:ProcedureCode listID="PR_PROC">1</cbc:ProcedureCode>
+        <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2015-10-09+02:00</cbc:EndDate>
+            <cbc:EndTime>14:13:45.579+02:00</cbc:EndTime>
+        </cac:TenderSubmissionDeadlinePeriod>
+        <cac:ParticipationRequestReceptionPeriod>
+            <cbc:EndDate>2015-10-09+02:00</cbc:EndDate>
+            <cbc:EndTime>14:13:45.579+02:00</cbc:EndTime>
+        </cac:ParticipationRequestReceptionPeriod>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name>010.16</cbc:Name>
+        <cbc:Description>Description of the works project</cbc:Description>
+        <cbc:ProcurementTypeCode listID="PROJECT_TYPE">1</cbc:ProcurementTypeCode>
+        <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listID="CPV">03113100-7</cbc:ItemClassificationCode>
+        </cac:MainCommodityClassification>
+        <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listID="CPV">BA04-1</cbc:ItemClassificationCode>
+        </cac:AdditionalCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:ID schemeID="NUTS">NL01</cbc:ID>
+        </cac:RealizedLocation>
+    </cac:ProcurementProject>
+    <cac:ProcurementProjectLot>
+        <cbc:ID>1</cbc:ID>
+        <cac:ProcurementProject>
+            <cbc:Name>First part of the works project</cbc:Name>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+    <cac:ProcurementProjectLot>
+        <cbc:ID>2</cbc:ID>
+        <cac:ProcurementProject>
+            <cbc:Name>Second part of the works project</cbc:Name>
+        </cac:ProcurementProject>
+    </cac:ProcurementProjectLot>
+</ubl:CallForTenders>

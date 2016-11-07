@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
+
+	<package>CEN/BII Transaction 090</package>
+
+    <testfolder>example</testfolder>
+
+	<configuration>
+        <identifier>cenbii-t90-base-3.0</identifier>
+        <title>CEN/BII Transaction 090</title>
+		<inherit>ubl-tender-2.1</inherit>
+        <file source="schematron/BIIRULES-UBL-T90.sch" path="xsl/BIIRULES-UBL-T90.svrl.xslt" />
+	</configuration>
+	<configuration>
+        <identifier>cenbii-t90-12-3.0</identifier>
+        <title>CEN/BII Transaction 090 (Profile 12)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii12:ver3.0</profileId>
+        <customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0</customizationId>
+        <inherit>cenbii-t90-base-3.0</inherit>
+	</configuration>
+	<configuration>
+        <identifier>cenbii-t90-35-3.0</identifier>
+        <title>CEN/BII Transaction 090 (Profile 35)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii35:ver3.0</profileId>
+        <customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0</customizationId>
+        <inherit>cenbii-t90-base-3.0</inherit>
+	</configuration>
+	<configuration>
+        <identifier>cenbii-t90-54-3.0</identifier>
+        <title>CEN/BII Transaction 090 (Profile 54)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii54:ver3.0</profileId>
+        <customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0</customizationId>
+        <inherit>cenbii-t90-base-3.0</inherit>
+	</configuration>
+
+</buildConfigurations>

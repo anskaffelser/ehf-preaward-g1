@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
+
+	<package>EHF Transaction 090</package>
+
+	<configuration>
+        <identifier>nogov-t90-base-1.0</identifier>
+        <title>EHF Transaction 090</title>
+		<inherit>cenbii-t90-base-3.0</inherit>
+        <file source="NOGOV-UBL-T90.sch" path="xsl/NOGOV-UBL-T90.svrl.xslt" />
+	</configuration>
+	<configuration>
+        <identifier>nogov-t90-54-3.0</identifier>
+        <title>EHF Transaction 090 (Profile 54)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii54:ver3.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+        <inherit>nogov-t90-base-1.0</inherit>
+	</configuration>
+	<configuration>
+		<identifier>nogov-t90-54x-3.0</identifier>
+		<title>EHF Transaction 090 (Profile 54x)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii54x:ver1.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+		<inherit>nogov-t90-base-1.0</inherit>
+	</configuration>
+	<configuration>
+		<identifier>nogov-t90-54y-3.0</identifier>
+		<title>EHF Transaction 090 (Profile 54y)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii54y:ver1.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+		<inherit>nogov-t90-base-1.0</inherit>
+	</configuration>
+	<configuration>
+		<identifier>nogov-t90-54xy-3.0</identifier>
+		<title>EHF Transaction 090 (Profile 54xy)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii54xy:ver1.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+		<inherit>nogov-t90-base-1.0</inherit>
+	</configuration>
+
+</buildConfigurations>

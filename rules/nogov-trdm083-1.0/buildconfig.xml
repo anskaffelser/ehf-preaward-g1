@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
+
+	<package>EHF Transaction 083</package>
+
+	<configuration>
+        <identifier>nogov-t83-base-1.0</identifier>
+        <title>EHF Transaction 083</title>
+		<inherit>cenbii-t83-base-3.0</inherit>
+        <file source="NOGOV-UBL-T83.sch" path="xsl/NOGOV-UBL-T83.svrl.xslt" />
+	</configuration>
+	<configuration>
+		<identifier>nogov-t83-47-3.0</identifier>
+		<title>EHF Transaction 083 (Profile 47)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii47:ver3.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:urn:www.difi.no:ehf:callfortenders:ver1.0</customizationId>
+		<inherit>nogov-t83-base-1.0</inherit>
+	</configuration>
+	<configuration>
+        <identifier>nogov-t83-47x-3.0</identifier>
+        <title>EHF Transaction 083 (Profile 47x)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii47x:ver3.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:urn:www.difi.no:ehf:callfortenders:ver1.0</customizationId>
+        <inherit>nogov-t83-base-1.0</inherit>
+	</configuration>
+
+</buildConfigurations>

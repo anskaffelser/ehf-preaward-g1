@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
+
+	<package>EHF Transaction 068</package>
+
+	<configuration>
+        <identifier>nogov-t68-base-1.0</identifier>
+        <title>EHF Transaction 068</title>
+		<inherit>cenbii-t68-base-3.0</inherit>
+		<file source="NOGOV-UBL-T68.sch" path="xsl/NOGOV-UBL-T68.svrl.xslt" />
+		<rule identifier="BII3-T68-R022" action="suppress" />
+	</configuration>
+	<configuration>
+        <identifier>nogov-t68-54x-3.0</identifier>
+        <title>EHF Transaction 068 (Profile 54x)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii54x:ver1.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm068:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+        <inherit>nogov-t68-base-1.0</inherit>
+	</configuration>
+	<configuration>
+		<identifier>nogov-t68-54xy-3.0</identifier>
+		<title>EHF Transaction 068 (Profile 54xy)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii54xy:ver1.0</profileId>
+		<customizationId>urn:www.cenbii.eu:transaction:biitrdm068:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
+		<inherit>nogov-t68-base-1.0</inherit>
+	</configuration>
+
+</buildConfigurations>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    
+    UseCase1-trdm090.xml
+    Title: Tender, profile 54 and trdm90
+    Description: This use case is a sample of a tender corresponding to UseCase1 using the UBL 2.1 Syntax
+    Date: 24/11/2015
+    
+    Editor: CEN BII3 Workshop
+    
+-->
+<Tender xmlns="urn:oasis:names:specification:ubl:schema:xsd:Tender-2"
+  xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrdm090:ver3.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:www.cenbii.eu:profile:bii54:ver3.0</cbc:ProfileID>
+  <cbc:ID>TND12345</cbc:ID>
+  <cbc:ContractFolderID>REF98</cbc:ContractFolderID>
+  <cbc:IssueDate>2015-08-04</cbc:IssueDate>
+  <cbc:IssueTime>09:10:10Z</cbc:IssueTime>
+  <cac:DocumentReference>
+    <cbc:ID>CALL123</cbc:ID>
+    <cbc:DocumentTypeCode listID="UNCL1001">311</cbc:DocumentTypeCode>
+    <cbc:VersionID>1</cbc:VersionID>
+    <cbc:DocumentDescription>Call for tender reference</cbc:DocumentDescription>
+  </cac:DocumentReference>
+  <cac:DocumentReference>
+    <cbc:ID>TEN345</cbc:ID>
+    <cbc:DocumentTypeCode listID="UNCL1001">310</cbc:DocumentTypeCode>
+    <cbc:DocumentDescription>Provided tender document</cbc:DocumentDescription>
+    <cac:Attachment>
+      <cac:ExternalReference>
+        <cbc:DocumentHash>de9f2c7fd25e1b3afad3e85a0bd17d9b100db4b3</cbc:DocumentHash>
+        <cbc:HashAlgorithmMethod>SHA-1</cbc:HashAlgorithmMethod>
+        <cbc:MimeCode>application/vnd.ms-powerpoint</cbc:MimeCode>
+        <cbc:FileName>Filnavn</cbc:FileName>
+      </cac:ExternalReference>
+    </cac:Attachment>
+  </cac:DocumentReference>
+  <cac:DocumentReference>
+    <cbc:ID>ISPEC_1</cbc:ID>
+    <cbc:DocumentTypeCode listID="UNCL1001">6</cbc:DocumentTypeCode>
+    <cbc:DocumentDescription>Detailed item specification</cbc:DocumentDescription>
+    <cac:Attachment>
+      <cac:ExternalReference>
+        <cbc:DocumentHash>de9f2c7fd25e1b3afad3e85a0bd17d9b100db4b3</cbc:DocumentHash>
+        <cbc:HashAlgorithmMethod>SHA-1</cbc:HashAlgorithmMethod>
+        <cbc:MimeCode>application/pdf</cbc:MimeCode>
+        <cbc:FileName>Spec.pdf</cbc:FileName>
+      </cac:ExternalReference>
+    </cac:Attachment>
+  </cac:DocumentReference>
+  <cac:TendererParty>
+    <cbc:EndpointID schemeID="GB:VAT">GB999 9999 73</cbc:EndpointID>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="GB:VAT">GB999 9999 73</cbc:ID>
+    </cac:PartyIdentification>
+    <cac:PartyName>
+      <cbc:Name>Economic Operator Inc.</cbc:Name>
+    </cac:PartyName>
+    <cac:PostalAddress>
+      <cbc:StreetName>Corporation Street</cbc:StreetName>
+      <cbc:CityName>Manchester</cbc:CityName>
+      <cbc:PostalZone>M4 4DX</cbc:PostalZone>
+      <cac:Country>
+        <cbc:IdentificationCode listID="ISO3166-1:Alpha2">GB</cbc:IdentificationCode>
+      </cac:Country>
+    </cac:PostalAddress>
+    <cac:Contact>
+      <cbc:Name>Jane Doe</cbc:Name>
+      <cbc:ElectronicMail>jane.doe@email.uk</cbc:ElectronicMail>
+    </cac:Contact>
+  </cac:TendererParty>
+  <cac:ContractingParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="NO:ORGNR">123456789</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="NO:ORGNR">123456789</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Contracting Body AS</cbc:Name>
+      </cac:PartyName>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderedProject>
+    <cac:ProcurementProjectLot>
+      <cbc:ID>LOT_1234</cbc:ID>
+    </cac:ProcurementProjectLot>
+  </cac:TenderedProject>
+</Tender>

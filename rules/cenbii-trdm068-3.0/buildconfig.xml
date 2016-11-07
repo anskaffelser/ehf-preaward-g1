@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
+
+	<package>CEN/BII Transaction 068</package>
+
+    <testfolder>example</testfolder>
+
+	<configuration>
+        <identifier>cenbii-t68-base-3.0</identifier>
+        <title>CEN/BII Transaction 068</title>
+		<inherit>ubl-catalogue-2.1</inherit>
+        <file source="schematron/BIIRULES-UBL-T68.sch" path="xsl/BIIRULES-UBL-T68.svrl.xslt" />
+	</configuration>
+	<configuration>
+        <identifier>cenbii-t68-35-3.0</identifier>
+        <title>CEN/BII Transaction 068 (Profile 35)</title>
+        <profileId>urn:www.cenbii.eu:profile:bii35:ver3.0</profileId>
+        <customizationId>urn:www.cenbii.eu:transaction:biitrdm068:ver3.0</customizationId>
+        <inherit>cenbii-t68-base-3.0</inherit>
+	</configuration>
+
+</buildConfigurations>
