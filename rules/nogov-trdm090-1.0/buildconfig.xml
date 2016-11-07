@@ -7,7 +7,7 @@
         <identifier>nogov-t90-base-1.0</identifier>
         <title>EHF Transaction 090</title>
 		<inherit>cenbii-t90-base-3.0</inherit>
-        <file source="NOGOV-UBL-T90.sch" path="xsl/NOGOV-UBL-T90.svrl.xslt" />
+        <file source="sch/NOGOV-UBL-T90.sch" path="xsl/NOGOV-UBL-T90.svrl.xslt" />
 	</configuration>
 	<configuration>
         <identifier>nogov-t90-54-3.0</identifier>

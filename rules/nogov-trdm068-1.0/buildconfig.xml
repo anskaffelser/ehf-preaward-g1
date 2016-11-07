@@ -7,7 +7,7 @@
         <identifier>nogov-t68-base-1.0</identifier>
         <title>EHF Transaction 068</title>
 		<inherit>cenbii-t68-base-3.0</inherit>
-		<file source="NOGOV-UBL-T68.sch" path="xsl/NOGOV-UBL-T68.svrl.xslt" />
+		<file source="sch/NOGOV-UBL-T68.sch" path="xsl/NOGOV-UBL-T68.svrl.xslt" />
 		<rule identifier="BII3-T68-R022" action="suppress" />
 	</configuration>
 	<configuration>

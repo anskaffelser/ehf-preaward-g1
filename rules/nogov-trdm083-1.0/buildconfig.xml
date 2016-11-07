@@ -7,7 +7,7 @@
         <identifier>nogov-t83-base-1.0</identifier>
         <title>EHF Transaction 083</title>
 		<inherit>cenbii-t83-base-3.0</inherit>
-        <file source="NOGOV-UBL-T83.sch" path="xsl/NOGOV-UBL-T83.svrl.xslt" />
+        <file source="sch/NOGOV-UBL-T83.sch" path="xsl/NOGOV-UBL-T83.svrl.xslt" />
 	</configuration>
 	<configuration>
 		<identifier>nogov-t83-47-3.0</identifier>
