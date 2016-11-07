@@ -13,7 +13,7 @@ The table below shows an overview of the possible combinations of CustomizationI
 
 | Call for tenders
 | Trdm083
-|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:extended:urn:www.peppol.eu:bis:peppol47a:ver1.0
+|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:urn:www.difi.no:ehf:callfortenders:ver1.0
 .^|urn:www.cenbii.eu:profile:bii47:ver3.0
 
 |===
@@ -28,7 +28,7 @@ The table below shows an overview of the possible combinations of CustomizationI
 
 | Call for tenders
 | Trdm083
-|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:extended:urn:www.peppol.eu:bis:peppol47a:ver1.0
+|urn:www.cenbii.eu:transaction:biitrdm083:ver3.0:urn:www.difi.no:ehf:callfortenders:ver1.0
 .2+|urn:www.cenbii.eu:profile:bii47x:ver3.0
 
 | ESPD
