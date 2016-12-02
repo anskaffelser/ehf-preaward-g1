@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0">
+
+    <package url="https://vefa.difi.no/preaward/standard/ehf-callfortenders-1.0.0/">EHF Call for Tenders 1.0.0</package>
+    <package url="https://vefa.difi.no/preaward/standard/ehf-tendering-1.0.0/">EHF Tendering 1.0.0</package>
+
+</buildConfigurations>

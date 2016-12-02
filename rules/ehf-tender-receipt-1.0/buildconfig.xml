@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0" capabilities="ubl">
 
-	<package>EHF Transaction 045</package>
-
 	<configuration>
-        <identifier>nogov-t45-base-1.0</identifier>
-        <title>EHF Transaction 045</title>
+		<identifier>nogov-t45-base-1.0</identifier>
+		<title>EHF Transaction 045</title>
 		<inherit>cenbii-t45-base-3.0</inherit>
-        <file source="sch/NOGOV-UBL-T45.sch" path="xsl/NOGOV-UBL-T45.svrl.xslt" />
+		<file source="sch/NOGOV-UBL-T45.sch" path="xsl/NOGOV-UBL-T45.svrl.xslt" />
 	</configuration>
 	<configuration>
-        <identifier>nogov-t45-54-3.0</identifier>
-        <title>EHF Transaction 045 (Profile 54)</title>
-        <profileId>urn:www.cenbii.eu:profile:bii54:ver3.0</profileId>
+		<identifier>nogov-t45-54-3.0</identifier>
+		<title>EHF Transaction 045 (Profile 54)</title>
+		<profileId>urn:www.cenbii.eu:profile:bii54:ver3.0</profileId>
 		<customizationId>urn:www.cenbii.eu:transaction:biitrdm045:ver3.0:extended:urn:www.difi.no:ehf:tendering:ver1.0</customizationId>
-        <inherit>nogov-t45-base-1.0</inherit>
+		<inherit>nogov-t45-base-1.0</inherit>
 	</configuration>
 	<configuration>
 		<identifier>nogov-t45-54x-3.0</identifier>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:ns2="http://www.schematron-quickfix.com/validator/process" schemaVersion="iso" queryBinding="xslt2">
-    <title>EHF business rules</title>
+
+    <title>EHF Tendering 1.0</title>
+
     <ns uri="urn:oasis:names:specification:ubl:schema:xsd:Tender-2" prefix="ubl"/>
     <ns uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" prefix="cbc"/>
     <ns uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" prefix="cac"/>
+
     <pattern>
         <rule context="/ubl:Tender">
             <assert test="not(count(//*[not(node()[not(self::comment())])]) &gt; 0)" flag="fatal" id="NOGOV-T68-R001">A pre award catalogue MUST not contain empty elements.</assert>
