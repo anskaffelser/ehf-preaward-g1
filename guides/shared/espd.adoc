@@ -9,6 +9,8 @@ Documentation and services related to {ESPD} are provided by the European Commis
 * {ESPD_model}
 * {ESPD_github}
 
+Information on ESPD and links to the documentation from the European Commission can also be found {ESPD_vefa}[here].
+
 Implementers of this profile attach ESPD Request/Response by adding a DocumentReference. Values to be used:
 
 `cac:DocumentReference/cbc:DocumentTypeCode`:: 916 (Related document)

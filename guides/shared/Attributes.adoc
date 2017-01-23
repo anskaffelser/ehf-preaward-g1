@@ -28,6 +28,7 @@
 :ESPD_doc: http://espd.github.io/ESPD-Service/[ESPD Documentation]
 :ESPD_model: https://espd.github.io/ESPD-EDM/[ESPD Exchange Data Model]
 :ESPD_github: https://github.com/espd[ESPD Github Account]
+:ESPD_vefa: https://vefa.difi.no/preaward/standard/espd/
 
 // Legal
 
