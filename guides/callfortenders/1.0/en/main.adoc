@@ -43,9 +43,9 @@ include::{sourcedir}/codes_rules/code_lists.adoc[]
 
 include::{sourcedir}/codes_rules/business_rules.adoc[]
 
-include::{gendoc}\espd.adoc[]
+include::{gendoc}/espd.adoc[]
 
-include::{sourcedir}\descriptions\README.adoc[]
+include::{sourcedir}/descriptions/README.adoc[]
 
 include::{gendoc}/Peppol_policy.adoc[]
 
@@ -53,12 +53,12 @@ include::{gendoc}/party_identifiers.adoc[]
 
 include::{gendoc}/version_id.adoc[]
 
-include::{sourcedir}\profiles\profiles.adoc[]
+include::{sourcedir}/profiles/profiles.adoc[]
 
-include::{sourcedir}\peppol_identifiers\profile_id.adoc[]
+include::{sourcedir}/peppol_identifiers/profile_id.adoc[]
 
-include::{sourcedir}\peppol_identifiers\customization_id.adoc[]
+include::{sourcedir}/peppol_identifiers/customization_id.adoc[]
 
-include::{sourcedir}\peppol_identifiers\combination.adoc[]
+include::{sourcedir}/peppol_identifiers/combination.adoc[]
 
 include::{sourcedir}/annex/README.adoc[]
